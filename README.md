@@ -1,2 +1,2 @@
-# Portefolio-Simon
-Portefolio-Simon
+npm install
+npm run dev for start project
