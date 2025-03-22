@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/styles/portefolio.css -o ./assets/styles/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
+    "postcss": "^8.5.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
