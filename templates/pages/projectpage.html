@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/styles/output.css" rel="stylesheet">
+    <script src="../../assets/scripts/filter.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ol>
+            <li><a href="../pages/homepage.html">A Propos</a></li>
+            <li><a href="../pages/projectpage.html">Mes Projets</a></li>
+        </ol>
+    </nav>
+    <main class="flex-1">
+        <section class="w-full flex justify-center gap-16 bg-primary-alt h-auto mt-8 p-12 rounded-xl">
+            <div class="w-[30%] h-[600px] p-8 bg-secondary rounded-lg sticky top-36 ">
+                <h1>A propos</h1>
+                <h2>Trier par</h2>
+                <div class="filter">
+                    <button id="all" class="filter-btn">Tout</button>
+                    <button id="illustration" class="filter-btn">Illustration</button>
+                    <button id="modele-vivant" class="filter-btn">Modèle-vivant</button>
+                    <button id="anatomie" class="filter-btn">Anatomie</button>
+                    <button id="concept-art" class="filter-btn">Concept Art</button>
+                    <button id="croquis-exterieur" class="filter-btn">Croquis d'extérieur</button>
+                    <button id="dessin-analyse" class="filter-btn">Dessin D'analyse</button>
+                    <button id="couleur" class="filter-btn">Couleur</button>
+                    <button id="perspective" class="filter-btn">Perspective</button>
+                    <button id="etude-documentaire" class="filter-btn">Étude documentaire</button>
+                    <button id="technique-animation" class="filter-btn">Technique animation</button>
+                    <button id="animation-2d" class="filter-btn">Animation 2D</button>
+                    <button id="projet-perso" class="filter-btn">Projet perso</button>
+                    <button id="storyboard" class="filter-btn">Storyboard</button>
+                </div>
+            </div>
+            <div class="w-[70%] p-8 flex justify-center gap-8 flex-wrap overflow-y-auto">
+                <div class="image-item" data-category="illustration">
+                    <img src="../../assets/images/images 1.jpg" alt="Projet 1">
+                </div>
+                <div class="image-item" data-category="modele-vivant">
+                    <img src="../../assets/images/images 2.jpg" alt="Projet 2">
+                </div>
+                <div class="image-item" data-category="anatomie">
+                    <img src="../../assets/images/images 1.jpg" alt="Projet 1">
+                </div>
+                <div class="image-item" data-category="concept-art">
+                    <img src="../../assets/images/images 2.jpg" alt="Projet 2">
+                </div>
+                <div class="image-item" data-category="illustration">
+                    <img src="../../assets/images/images 1.jpg" alt="Projet 1">
+                </div>
+                <div class="image-item" data-category="modele-vivant">
+                    <img src="../../assets/images/images 2.jpg" alt="Projet 2">
+                </div>
+                <div class="image-item" data-category="perspective">
+                    <img src="../../assets/images/images 1.jpg" alt="Projet 1">
+                </div>
+                <div class="image-item" data-category="storyboard">
+                    <img src="../../assets/images/images 2.jpg" alt="Projet 2">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com" class="text-blue-400">hege@example.com</a></p>
+    </footer>
+</body>
+
+</html>
